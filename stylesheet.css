@@ -1,0 +1,136 @@
+body{
+    margin: 10px 10px 0px;
+    font-family: Arial, sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 17%; /* also used to space out the container items.. 
+    try 10% to see the diff*/
+    margin-left: auto; /* left of 20% width is the width occupied by the flex 
+    container as a fraction of the entire flex length*/
+  }
+
+nav a, img{
+      margin: 0.7em 0em;
+  }
+
+nav a{
+    color:rgb(87, 86, 86);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav img{
+    height: 18px;
+}
+
+nav button{
+    border: none;
+    padding: 0.5em 1.5em;
+    border-radius: 7%;
+    background-color:rgb(0, 47, 255);
+    font-size: 14px;
+    color: white;
+    height: 3em;
+}
+
+
+/* body of page= google image, search and lang*/
+main{
+    text-align: center;
+    margin: 1em auto 40px;
+    width: 50%;
+    padding: 80px;
+}
+main img{
+    height: 92px;
+    margin-top: auto;
+}
+main input{
+    width: 80%;
+    padding: 1em;
+    border-radius: 30px;
+    border: 1px solid rgb(211, 206, 206);
+}
+.google-search-to-btns{
+    padding: 20px;
+}
+
+div button{
+    border: none;
+    padding: 0.5em;
+    margin: 1em;
+    background-color: rgb(240, 241, 243);
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+
+/*https://stackoverflow.com/questions/11497094/answer/submit*/
+
+.google-body{
+    padding: 50px;
+}
+
+div h4{
+    color: rgb(107, 106, 106);
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    font-size: 14px;
+    margin: auto;
+}
+
+h4 a{
+    margin-right: 1em;
+}
+
+div a{
+    text-decoration: none;
+}
+
+/* footer section*/
+footer{
+    color: rgb(145, 143, 143);
+    font-size: 14px;
+    background-color: rgb(243, 239, 239);
+ }
+
+.top-footer{
+    padding: 1em;
+    border-bottom: 1.5px solid rgb(211, 208, 208);
+    margin: auto 0px;
+   }
+
+.btm-footer{
+    display: flex;
+    /* inline-flex does not allow space between take effect*/
+    padding: 1em;
+    justify-content: space-between;
+    margin: auto 0px;
+}
+
+.btm-footer a{
+    color: rgb(145, 143, 143);
+}
+
+.about-section a{
+    margin-right: 1em;
+    /*target right margin btw each link text*/    
+}
+
+.privacy a{
+    margin-left: 1em;
+    /*target right margin btw each link text*/
+}
+
+.carbon img{
+    height: 15px;
+    margin: 0px 10px;
+}
+
